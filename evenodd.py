@@ -1,6 +1,15 @@
-num = int(input("Enter a number: "))
+n = int(input("Enter n: "))
 
-if num % 2 == 0:
-    print("Even Number")
-else:
-    print("Odd Number")
+print("Even Numbers:")
+i = 1
+while i <= n:
+    if i % 2 == 0:
+        print(i)
+    i += 1
+
+print("Odd Numbers:")
+i = 1
+while i <= n:
+    if i % 2 != 0:
+        print(i)
+    i += 1
